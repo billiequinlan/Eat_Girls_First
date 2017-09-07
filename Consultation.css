@@ -1,0 +1,35 @@
+.jumbotron{
+	min-height: 50px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #222831;
+
+}
+.jumbotron h1 {
+	color: #222831;
+	font-size: 150px;
+	}
+
+.jumbotron h2 {
+	text-indent: 409px;
+	color: #00ADB5;
+}
+.page-header {
+	font-family: 'Give You Glory', cursive;
+	margin: 20px 0px;
+	color: #00ADB5;
+}
+
+
+#main-paragraph {
+	line-height: 30px;
+}
+
+#final-paragraph {
+	margin: 50px 0px;}
+
+#final-paragraph h1 {
+	color: #EEEEEE;
+	font-family: 'Give You Glory', cursive;
+	font-size: 150px;
+	margin: 50px 0px;}
