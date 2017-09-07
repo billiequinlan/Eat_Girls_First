@@ -1,15 +1,14 @@
-.jumbotron{
-	min-height: 50px;
+.page-header {
+	font-family: 'Give You Glory', cursive;
 	background-size: cover;
-	background-attachment: fixed;
+	color: #EEEEEE;
 	background-color: #222831;
+}
+
+.page-header h1{
+	padding: 0.5cm 0cm;
 
 }
-.jumbotron h1{
-	color: #EEEEEE;
-	font-family: 'Give You Glory', cursive;
-	font-size: 150px;
-	padding-top: 2%;}
 
 #our-story h1 {
 	font-family: 'Give You Glory', cursive;
