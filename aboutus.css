@@ -1,12 +1,30 @@
+
+.navbar {
+ 	background-color:#393E46;
+ 	border-color: #393E46;
+ 	margin-bottom: -50px;
+ 	padding-bottom: -10px;
+	}
+
+#myNavbar p {
+ color:#EEEEEE;
+ margin: 20px 200px;
+ font-family: 'Give You Glory', cursive;
+ font-size: 200%;
+
+}
+
 .page-header {
 	font-family: 'Give You Glory', cursive;
 	background-size: cover;
 	color: #EEEEEE;
-	background-color: #222831;
+	border-color: #393E46;
+	margin-bottom: 0px;
 }
 
 .page-header h1{
-	padding: 0.5cm 0cm;
+	padding-top:30px;
+	font-size: 80px;
 
 }
 
@@ -15,6 +33,7 @@
 	font-size: 200px;
 	}
 
+ 
 
 #Titles img{
 	margin: 0px 0px 25px 0px;

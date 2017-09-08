@@ -2,9 +2,9 @@
 	min-height: 50px;
 	background-size: cover;
 	background-attachment: fixed;
-	background-color: #222831;
 
 }
+
 .jumbotron h1 {
 	color: #222831;
 	font-size: 150px;
@@ -14,43 +14,33 @@
 	text-indent: 409px;
 	color: #00ADB5;
 }
-
-.container {
-    margin-top: 10px;
-}
-
-.nav.nav-center {
-    display: inline-block;
-    left: 0;
-    right: 0;
-    margin:0;
-    float:none;
-}
-
-.navbar-inner{
-    text-align:center;
-}
-
-
  
+ .navbar {
+ 	background-color:#393E46;
+ 	border-color: #393E46;
+ 	margin-bottom: -50px;
+ 	padding-bottom: -10px;
+	}
 
-#homelink {
-	font-family: 'Give You Glory', cursive;
-	margin: 14px 250px 14px 250px;
+#myNavbar p {
+ color:#EEEEEE;
+ margin: 20px 200px;
+ font-family: 'Give You Glory', cursive;
+ font-size: 200%;
+
 }
 
 .page-header {
 	font-family: 'Give You Glory', cursive;
 	background-size: cover;
 	color: #EEEEEE;
-	background-color: #222831;
-}
+	border-color: #393E46;
+	margin-bottom: 0px;}
 
 .page-header h1{
-	padding: 0.5cm 0cm;
-
+	padding-top: 50px;
+	font-size: 80px;
 }
-
 
 #main-paragraph {
 	line-height: 30px;
