@@ -10,19 +10,12 @@
  	<link rel="stylesheet" href="aboutus.css">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-	<script> $(document).ready(function(){
-		$("#Elizabethcopy").hide()
-		$("#photo").hover(function(){
-			$("#Elizabethcopy").toggle();
-		});
-
-	});</script>
+	<script src="aboutus.js"></script>
 
  </head>
 
 <body style="background-color: #393E46; color: #00ADB5;">
-<div class="container">
+
  	 	<header class="page-header text-center">
 <h1> Eat Girls First </h1>
 </header>
@@ -41,8 +34,6 @@
     <ul class="nav navbar-nav">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> About Us </a></li>
       <li><a href="#"><span class="glyphicon glyphicon-cutlery"></span> Resturant Reviews</a></li>
-     </ul>
-     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-apple"></span> Recipes </a></li>
       <li><a href="#"><span class="glyphicon glyphicon-education"></span> Consultation</a></li>
     </ul>
@@ -58,7 +49,7 @@
 	<div class="container">
 		<div class="row">
   			<div class="col-sm-4">
-  			<div id="photo">
+  			<div id="photo1">
   	          <img src="elizabeth.jpg" alt="Elizabeth" class="img-circle" class="img-responsive" width="300" height="300">
   	          </div>
         			<h2 style="color:#EEEEEE;"> Elizabeth</h2>
@@ -69,7 +60,9 @@
       </div>
  
   <div class="col-sm-4">
-      <img src="siann.jpg" alt="Sian" class="img-circle" class="img-responsive" width="300" height="300">
+  	<div id="photo2">
+      <img src="sian.jpg" alt="Sian" class="img-circle" class="img-responsive" width="300" height="300">
+      </div>
          <h2 style="color:#EEEEEE;">Sian</h2>
        		 <i class="title" style="color:#EEEEEE;">Master Chef</i>
        		<div id="Siancopy">

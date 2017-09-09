@@ -2,23 +2,25 @@
  .navbar {
  	background-color:#393E46;
  	border-color: #393E46;
-	}
-
-#myNavbar p {
- color:#EEEEEE;
- font-family: 'Give You Glory', cursive;
- font-size: 200%;
+ 	color: #EEEEEE;
+ 	font-size: 150%;
+ 	float:none;
+ 	margin-left: 180px;
+ 	display: block;
+ 	text-align: center;
 }
+
 
 .page-header {
 	font-family: 'Give You Glory', cursive;
 	background-size: cover;
 	color: #EEEEEE;
 	border-color: #393E46;
-	margin-bottom: 0px;}
+	margin-top: -15px;
+	background-color: #222831;}
 
 .page-header h1{
-	padding-top: 0px;
+	padding-top: 30px;
 	font-size: 80px;
 }
 
