@@ -8,7 +8,17 @@
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Give+You+Glory" rel="stylesheet">
  	<link rel="stylesheet" href="aboutus.css">
-		
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script> $(document).ready(function(){
+		$("#Elizabethcopy").hide()
+		$("#photo").hover(function(){
+			$("#Elizabethcopy").toggle();
+		});
+
+	});</script>
+
  </head>
 
 <body style="background-color: #393E46; color: #00ADB5;">
@@ -48,18 +58,24 @@
 	<div class="container">
 		<div class="row">
   			<div class="col-sm-4">
+  			<div id="photo">
   	          <img src="elizabeth.jpg" alt="Elizabeth" class="img-circle" class="img-responsive" width="300" height="300">
+  	          </div>
         			<h2 style="color:#EEEEEE;"> Elizabeth</h2>
              			<i class="title" style="color:#EEEEEE;">Resturant Scout</i>
+             			<div id="Elizabethcopy">
         					<p class="lead">Elizabeth is our restaurant scout extrodinarie. You'll be hard pushed to find someone more versed on London's most delicious and healthy food spots!</p>
+        				</div>
       </div>
  
   <div class="col-sm-4">
       <img src="siann.jpg" alt="Sian" class="img-circle" class="img-responsive" width="300" height="300">
          <h2 style="color:#EEEEEE;">Sian</h2>
        		 <i class="title" style="color:#EEEEEE;">Master Chef</i>
+       		<div id="Siancopy">
         <p class="lead">Sian is the master of our kitchens, she can whip up a nutritious meal with even the most basic ingrediants. Dinner at hers is always a treat.</p>
       </div>
+     </div>
    
   <div class="col-sm-4">
       <img src="billie2.jpg" alt="Billie" class="img-circle" class="img-responsive" width="300" height="300">
@@ -114,6 +130,7 @@
 		<h3> XXX </h3>
 	</main>
   </div>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
  </body>
 </html>
