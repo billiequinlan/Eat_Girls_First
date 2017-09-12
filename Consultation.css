@@ -15,20 +15,25 @@
 	color: #00ADB5;
 }
 
+.button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #222831;
+    color: #EEEEEE;
+}
 
+.button:hover {
+    background-color: orange;
+    color: white;
+}
  
  .navbar {
  	background-color:#393E46;
  	border-color: #393E46;
- 	
-	}
-
-#myNavbar p {
- color:#EEEEEE;
- font-family: 'Give You Glory', cursive;
- font-size: 200%;
+ 	color: #EEEEEE;
 
 }
+
 
 .page-header {
 	font-family: 'Give You Glory', cursive;
