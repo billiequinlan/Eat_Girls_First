@@ -1,8 +1,10 @@
 $(document).ready(function(){
 		
-$("#Elizabethcopy").hide()
+$("#elizabethcopy").hide()
 		$("#photo1").hover(function(){
-			$("#Elizabethcopy").toggle();
+			$("#elizabethcopy").toggle();
 
 })
+
+
 });

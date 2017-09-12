@@ -14,6 +14,8 @@
 	text-indent: 409px;
 	color: #00ADB5;
 }
+
+
  
  .navbar {
  	background-color:#393E46;
@@ -42,6 +44,7 @@
 
 #main-paragraph {
 	line-height: 30px;
+	font-size: 120%;
 	
 }
 
