@@ -1,6 +1,6 @@
-$(document).ready(function(){
 
-  $("button").click(function(){
-  	$("#openingpara").hide();
-});
-});
+$(function(){
+
+alert("Page loaded");
+
+}); 
