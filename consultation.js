@@ -1,6 +1,8 @@
 
 $(function(){
 
-alert("Page loaded");
+alert("Free Health Consultation, sign up below");
 
-}); 
+
+});
+
