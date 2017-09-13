@@ -1,26 +1,17 @@
 
- 
-ul li {
-	font-size: 20px;
-	margin-top: 10px;
-}
-
- .navbar {
+  .navbar {
  	background-color:#393E46;
  	border-color: #393E46;
+
 	}
 
-#myNavbar p {
- color:#EEEEEE;
- font-family: 'Give You Glory', cursive;
- font-size: 200%;
+.nav.nav-justified li a {
+	color: #00ADB5;
 }
 
-#myNavbar li {
-	 color:#EEEEEE;
- font-size: 100%;
+p {
+	text-align: center;
 }
-
 
 .page-header {
 	font-family: 'Give You Glory', cursive;
@@ -42,13 +33,31 @@ ul li {
 	}
 
 .jumbotron h1 {
-	color: #50555f;
-	font-size: 100px;
+	color: #222831;
+	font-size: 150px;
 	}
 
 .jumbotron h2 {
 	text-indent: 409px;
-	color: #50555f;
+	color: #00ADB5;
+}
+
+#Delicious h3 {
+	color: #EEEEEE;
+	text-align: center;
+}
+
+#links ul {
+	padding-left:0;
+}
+
+#links ul li {
+	list-style-position:inside;
+	font-size: 20px
+}
+
+ul li a {
+	color: #EEEEEE;
 }
 
 #final-paragraph {

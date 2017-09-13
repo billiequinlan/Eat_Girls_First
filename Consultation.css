@@ -30,8 +30,11 @@
  .navbar {
  	background-color:#393E46;
  	border-color: #393E46;
- 	color: #EEEEEE;
 
+	}
+
+.nav.nav-justified li a {
+	color: #00ADB5;
 }
 
 
