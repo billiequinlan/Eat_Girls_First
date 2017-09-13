@@ -44,19 +44,10 @@ p {
 }
 
 .jumbotron h2 {
-	text-indent: 409px;
 	color: #00AFB5;
 }
  
- .carousel-content {
-  position: absolute;
-  bottom: 10%;
-  left: 5%;
-  z-index: 20;
-  color: white;
-  font-family: 'Give You Glory', cursive;
-}
-
+ 
  #final-paragraph {
 	margin: 50px 0px;
 }
@@ -70,5 +61,6 @@ p {
 .row-grid {
 	margin-top: 20px;
 }
+
 
 
