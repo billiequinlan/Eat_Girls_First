@@ -1,14 +1,11 @@
  .navbar {
  	background-color:#393E46;
  	border-color: #393E46;
- 	
+
 	}
 
-#myNavbar p {
- color:#EEEEEE;
- font-family: 'Give You Glory', cursive;
- font-size: 200%;
-
+.nav.nav-justified li a {
+	color: #00ADB5;
 }
 
 
@@ -25,20 +22,30 @@
 }
 
 .jumbotron{
-    background-image: url("home_header.jpg");
+    background-image: url("homepage.jpg");
     min-height: 50px;
 	background-size: cover;
 	background-attachment: fixed;
 	}
 
 .jumbotron h1 {
-	color: #FFFFFF;
+	color: #222831;
 	font-size: 150px;
 	}
 
+.lead {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
 .jumbotron h2 {
 	text-indent: 409px;
-	color: #FFFFFF;
+	color: #00AFB5;
 }
  
  .carousel-content {
