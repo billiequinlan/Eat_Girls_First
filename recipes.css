@@ -1,4 +1,10 @@
 
+ 
+ul li {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
  .navbar {
  	background-color:#393E46;
  	border-color: #393E46;
@@ -9,6 +15,12 @@
  font-family: 'Give You Glory', cursive;
  font-size: 200%;
 }
+
+#myNavbar li {
+	 color:#EEEEEE;
+ font-size: 100%;
+}
+
 
 .page-header {
 	font-family: 'Give You Glory', cursive;
@@ -48,4 +60,21 @@
 	font-family: 'Give You Glory', cursive;
 	font-size: 80px;
 	margin: 50px 0px;
+}
 
+.row-grid {
+	margin-top: 50px;
+}
+
+.col-lg-4 {
+ 	padding-top: 80px
+}
+
+.form {
+	padding-left: 165px
+}
+
+.lead {
+	padding-top: 50px;
+	padding-bottom: 50px
+}
