@@ -92,6 +92,11 @@ button {
     background-color: #f44336;
 }
 
+.signupbtn {
+	padding: 14px 20px;
+    background-color: green;
+}
+
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn,.signupbtn {
     float: left;
